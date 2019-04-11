@@ -33,7 +33,7 @@ function primeNumber() {
     }
 
     prime:
-        for (var i = numbOne; i <= numbTwo; i++) {
+        for (var i = numbOne; i < numbTwo; i++) {
             
             for (var primeNum = 2; primeNum < i; primeNum++) {
                 if (i % primeNum == 0) continue prime;
